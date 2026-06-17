@@ -49,10 +49,7 @@ print(name[-2:])
 if sn%2==0:
     print("Even Security Code")
 else:
-    print("Odd Security Code")
-
-for s in range(1,11):
-    print(sn,"x",s,"=",sn*s)
+    print("Odd Security Code")
 
 if age>=13 and age<=19 and scl_found and len(pas)>=8 and sn%2==0:
     print("ACCESS GRANTED")
